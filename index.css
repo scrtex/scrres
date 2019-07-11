@@ -121,7 +121,7 @@ input[type=checkbox]:checked ~ #menu{
     margin-left :10%;
     margin-right :10%;
     border-style:solid;
-    border-width:1px;
+    border-width:0px;
     height : inherit;
     height:500px;
 }
