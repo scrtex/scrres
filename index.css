@@ -172,4 +172,42 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 
+/*Home*/
+
+.col-1 {
+        border-style:solid ; 
+        border-width:0px ;  
+        width:40% ; 
+        height:150px; 
+        float:left ; 
+        vertical-align:middle;
+    }
+
+    .col-2 {
+        border-style:solid ; 
+        border-width:0px ; 
+        height:150px;
+        width:59% ;
+        float:right; 
+        vertical-align:middle
+    }
+
+    .col-2-ex {
+        float:left;  
+        text-align:center; 
+        border-style:solid ; 
+        border-width:0px ;
+         height:130px; 
+         width:150px;
+         padding:10px;
+    }
+
+
+    @media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 
