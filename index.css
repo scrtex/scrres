@@ -124,6 +124,8 @@ input[type=checkbox]:checked ~ #menu{
     border-width:1px;
     height : inherit;
     height:500px;
+    overflow:hidden;
+    height:1%;
 }
 
 .menudiv {
